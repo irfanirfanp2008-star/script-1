@@ -55,6 +55,7 @@ var student={
         age:19,
         mark:[75,80,65]
     }
+
 student.mark.push(90)  
 console.log(student)
 student.mark.pop()
@@ -63,3 +64,4 @@ console.log(student.name)
 console.log(student.age)
 console.log(student.mark)
 console.log(student.mark.length)
+console.log(student.mark[0]+student.mark[1]+student.mark[2]+student.mark[3]+student.mark[4])
