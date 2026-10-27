@@ -22,3 +22,44 @@ console.log(avrg>=20000)
 console.log(sale>=100000 && avrg>=20000)
 console.log(elig)
 
+var cart=[
+    {
+        name:"shirt",
+        price:600,
+        quantity:2
+    },
+     {
+        name:"jeans",
+        price:1000,
+        quantity:3
+    },
+     {
+        name:"tshirt",
+        price:300,
+        quantity:2
+    }
+]
+console.log(cart)
+cart.push(
+    {
+       name:"nikker",
+        price:100,
+        quantity:2 
+    }
+)
+cart.pop()
+console.log(cart[0].price>500)&&(cart[0].quantity>0)
+
+var student={
+        name:"shan",
+        age:19,
+        mark:[75,80,65]
+    }
+student.mark.push(90)  
+console.log(student)
+student.mark.pop()
+student.mark.push(85,95)
+console.log(student.name)
+console.log(student.age)
+console.log(student.mark)
+console.log(student.mark.length)
